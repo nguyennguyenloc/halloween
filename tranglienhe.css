@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mot .metal-mania-regular {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 50px;
+}
+
+.mot .mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+}
+
+.mot .emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 50px;
+    background-color:rgb(53, 53, 56, .1);
+    backdrop-filter: blur(30px);
+    border:5px none black;
+    padding:10px;
+    width:330px;
+    border-radius:50px;
+    position: absolute;
+    top:130px;
+    left:100px;
+}
+
+.mot .roboto-slab:hover, a .roboto-slab:hover{
+    background-color: #ffa600;
+    color:black;
+}
+
+.mot .ruge-boogie-regular {
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+
+.mot .ruge-boogie-regular:hover {
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+.mot .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 45px;
+    margin-right: 40px;
+    margin-left: 15px;
+    transition: .4s ;
+}
+
+.mot .creepster-regular:hover{
+    color:#ffa600;
+}
+
+.mot {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hai {
+    background: rgb(22, 93, 156, .1);
+    backdrop-filter: blur(10px); /* làm trong suốt( làm mờ màu )*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height:67px;
+    padding: 0 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-solid {
+    color:white;
+    font-size: 40px;
+    transition: .4s ;
+}
+
+.fa-solid:hover {
+    color:#9932CC;
+}
+
+.ba{
+    font-size: 25px;
+    border:3px solid black;
+    border-radius:18px;
+    margin-left: 50px;
+    padding:6px
+}
+
+.bon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img{
+    width:100%;
+    min-height:100%;
+}
+
+#nam{
+    font-size: 30px;
+    position: absolute;
+    top:245px;
+    left:100px;
+}
+
+#sau{
+    font-size: 30px;
+    position: absolute;
+    top:390px;
+    left:100px;
+}
+
+.bay{
+    display:flex;
+    position: absolute;
+    font-size: 30px;
+    top:470px;
+    left:100px;
+}
+
+.tam{
+    border:3px solid black;
+    border-radius:18px;
+    font-size: 30px;
+    height:50px;
+    width:170px;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding:6px
+}
+
+#chin{
+    position: absolute;
+    top:550px;
+    left:100px;
+    color:white;
+}
+
+.muoi{
+    border:3px solid black;
+    border-radius:18px;
+    font-size: 20px;
+    position: absolute;
+    width:1273px;
+    height:90px;
+    top:630px;
+    left:100px;
+    align-items: start;
+    padding-left:20px;
+}
+
+#muoimot{
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    background-color: rgb(53, 53, 56);
+    width:120px;
+    height:60px;
+    font-size: 30px;
+    color:white;
+    border-radius:18px;
+    position: absolute;
+    top:750px;
+    left:100px;
+}
+
+/* #muoihai{
+    position: absolute;
+    top:910px;
+    left:360px;
+}
+
+.fa-brands{
+    font-size: 60px;
+    height:40px;
+    width:40px;
+    color:white
+}
+
+#muoiba{
+    position: absolute;
+    top:1025px;
+    left:230px;
+}
+
+#muoibon{
+    position: absolute;
+    top:1025px;
+    left:330px;
+}
+#muoinam{
+    position: absolute;
+    top:1025px;
+    left:430px;
+}
+#muoisau{
+    position: absolute;
+    top:1025px;
+    left:530px;
+}
+#muoibay{
+    position: absolute;
+    top:1025px;
+    left:630px;
+}
+#muoitam{
+    position: absolute;
+    top:1025px;
+    left:730px;
+}
+
+.muoichin{
+    background-color:rgb(171, 171, 194, .1);
+    border:2px inset white;
+    padding:20px;
+    border-radius:18px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top:900px;
+    left:170px;
+    height:200px;
+    width: 640px;
+} */
+

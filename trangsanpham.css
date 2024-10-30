@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mot .ruge-boogie-regular {
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+
+.mot .ruge-boogie-regular:hover {
+    border: 1px solid #ffa600;
+    border-radius: 20px;
+    background-color: #ffa600;
+}
+
+.mot .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 45px;
+    margin-right: 40px;
+    margin-left: 15px;
+    transition: .4s;
+}
+
+.mot .creepster-regular:hover {
+    color: #ffa600;
+}
+
+.mot {
+    background-image: url(https://th.bing.com/th/id/OIP.LvGaMisyH28X_mWWH1bcVwHaHa?w=626&h=626&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hai {
+    background: rgb(22, 93, 156, .1);
+    backdrop-filter: blur(10px);
+    /* làm trong suốt( làm mờ màu )*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 67px;
+    padding: 0 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 40px;
+    transition: .4s;
+}
+
+.fa-solid:hover {
+    color: #9932CC;
+}
+
+.ba {
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 18px;
+    margin-left: 50px;
+    padding: 6px
+}
+
+.bon {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img {
+    border: 1px none white;
+    border-radius: 18px;
+    background-color: white;
+    transition: .4s;
+}
+
+#nam {
+    height: 370px;
+    width: 420px;
+    margin-top: 140px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+#sau {
+    height: 370px;
+    width: 420px;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+#bay {
+    height: 370px;
+    width: 420px;
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+#tam {
+    /* margin-left: 50px;  */
+    height: 105px;
+    width: 105px;
+}
+
+#chin {
+    height: 105px;
+    width: 105px;
+}
+
+#muoi {
+    height: 105px;
+    width: 105px;
+}
+
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 630px;
+    font-size: 45px;
+}
+
+.muoimot {
+    position: absolute;
+    top: 205px;
+    left: 630px;
+    font-size: 20px;
+    border-radius: 18px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#muoihai {
+    position: absolute;
+    top: 270px;
+    left: 630px;
+    letter-spacing: 5px;
+    display: flex;
+    font-size: 35px;
+}
+
+#muoiba {
+    position: absolute;
+    top: 315px;
+    left: 630px;
+    letter-spacing: 3px;
+    display: flex;
+    font-size: 35px;
+}
+
+#muoibon {
+    position: absolute;
+    top: 270px;
+    left: 730px;
+    letter-spacing: 5px;
+    display: flex;
+    color: rgb(227, 100, 36);
+    font-size: 35px;
+}
+
+#muoinam {
+    position: absolute;
+    top: 315px;
+    left: 800px;
+    letter-spacing: 3px;
+    color: rgb(227, 100, 36);
+    font-size: 35px;
+}
+
+#muoisau {
+    position: absolute;
+    top: 360px;
+    left: 630px;
+    letter-spacing: 3px;
+    display: flex;
+    font-size: 35px;
+}
+
+#muoibay {
+    position: absolute;
+    top: 360px;
+    left: 850px;
+    letter-spacing: 3px;
+    display: flex;
+    font-size: 35px;
+    color: rgb(29, 138, 42);
+}
+
+#muoitam {
+    position: absolute;
+    top: 430px;
+    left: 630px;
+}
+
+#muoichin {
+    position: absolute;
+    top: 500px;
+    left: 630px;
+    border: 3px inset white;
+    border-radius: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#muoichin:hover {
+    background-color: #ffa600;
+}
+
+#haimuoi:hover {
+    color: white;
+}
+
+.irish-grover-regular {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 630px;
+    font-size: 35px;
+}
+
+#quantity{
+    
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mot .ruge-boogie-regular {
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+
+.mot .ruge-boogie-regular:hover {
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+.mot .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 45px;
+    margin-right: 40px;
+    margin-left: 15px;
+    transition: .4s ;
+}
+
+.mot .creepster-regular:hover{
+    color:#ffa600;
+}
+
+.mot {
+    background-image: url(https://th.bing.com/th/id/OIP.F2x5f8TMYOMX52pd0AsXoAHaEv?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hai {
+    background: rgb(22, 93, 156, .1);
+    backdrop-filter: blur(10px); /* làm trong suốt( làm mờ màu )*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height:67px;
+    padding: 0 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-solid {
+    color:white;
+    font-size: 40px;
+    transition: .4s ;
+}
+
+.fa-solid:hover {
+    color:#9932CC;
+}
+
+.ba{
+    font-size: 25px;
+    border:3px solid black;
+    border-radius:18px;
+    margin-left: 50px;
+    padding:6px
+}
+
+.bon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#nam{
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+.sau{
+    text-align:center;
+    position: absolute;
+    border:4px inset white;
+    bottom:140px;
+    left:150px;
+    height:450px;
+    width:500px;
+    background: rgb(250, 250, 250, .1);
+    backdrop-filter: blur(10px);
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    background-color: #ffa600;
+    width:400px;
+    height:50px;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color:black
+}
+  
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    margin-bottom: 30px;
+    transition: .4s ;
+    font-size: 40px;
+}
+
+.agdasima-regular {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width:400px;
+    margin-bottom: 20px;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:white;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#tam{
+    color:#0bf702;
+}
+
+#chin{
+    color:#0bf702;
+}
+
+.butcherman-regular {
+    font-family: "Butcherman", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color:#ffa600;
+    position: absolute;
+    top:200px;
+    left:900px;
+    transition: .4s ;
+}
+
+#muoimot{
+    font-size: 40px;
+}
+
+.butcherman-regular:hover {
+    color:red;
+}
+
+.mot .roboto-slab:hover, a .roboto-slab:hover{
+    background-color: red;
+    color:white;
+} 
+
+#muoihai{
+    color:red;
+    text-decoration: none;
+}
+
+#muoihai:hover{
+    text-decoration:underline;
+    color:#FF9900;
+}
+
+.butcherman-regular {
+    font-family: "Butcherman", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color:#ffa600;
+    position: absolute;
+    top:200px;
+    left:815px;
+    transition: .4s ;
+}
+
+.butcherman-regular:hover {
+    color:red;
+} 
+
+.nosifer-regular {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 53px;
+    color:#ffa600;
+    position: absolute;
+    top:350px;
+    left:750px;
+    transition: .4s ;
+}
+
+.nosifer-regular:hover{
+    color:red
+}
+
+#muoibon{
+    position: absolute;
+    top:420px;
+    left:960px;
+}
+
+#muoiba{
+    font-size: 70px;
+}
+
+#muoiba:hover{
+    color:white;
+    font-size: 100px;
+}
+
+#muoinam{
+    color:white;
+    font-size: 80px;
+}
+
+#muoinam:hover{
+    color:black;
+}

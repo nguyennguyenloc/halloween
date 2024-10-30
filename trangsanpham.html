@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween store</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="trangsanpham.css">
+    <!--link icon ( Font awesome)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link kiểu chữ (browse font )-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Ruge+Boogie&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+    </style>
+    <!--link slick -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div class="mot">
+        <div class="hai">
+            <a href="http://127.0.0.1:5500/tranggioithieu.html" class="creepster-regular"><i
+                    class="fa-solid fa-wand-sparkles"></i> Halloween <i class="fa-solid fa-spider"></i></a>
+            <a href="http://127.0.0.1:5500/tranggioithieu.html" class="ruge-boogie-regular">Home</a>
+            <a href="http://127.0.0.1:5500/trangchu.html" class="ruge-boogie-regular">Gallery</a>
+            <a href="http://127.0.0.1:5500/trangdangnhap.html" class="ruge-boogie-regular">Log in</a>
+            <a href="http://127.0.0.1:5500/tranglienhe.html" class="ruge-boogie-regular">Contact</a>
+            <input class="ba" type="text" placeholder="Search">
+            <label class="bon"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <label class="bon"><i class="fa-solid fa-bars"></i></label>
+            <label class="bon"><i class="fa-solid fa-cart-shopping"></i></label>
+        </div>
+        <div class="slider-for">
+            <div>
+                <img id="nam"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_1_grande.png?v=1444035186"
+                    alt="">
+            </div>
+            <div>
+                <img id="sau"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_2_grande.png?v=1444035186"
+                    alt="">
+            </div>
+            <div>
+                <img id="bay"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_3_grande.png?v=1444035186"
+                    alt="">
+            </div>
+        </div>
+        <div class="slider-nav" style="width: 650px">
+            <div>
+                <img id="tam"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_1_compact.png?v=1444035186"
+                    alt="">
+            </div>
+            <div>
+                <img id="chin"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_2_compact.png?v=1444035186"
+                    alt="">
+            </div>
+            <div>
+                <img id="muoi"
+                    src="https://theme207-halloween.myshopify.com/cdn/shop/products/california_costumes_toys_grim_reaper_deluxe_3_compact.png?v=1444035186"
+                    alt="">
+            </div>
+        </div>
+
+        <div>
+            <h2 class="mystery-quest-regular ">California Costumes Toys Grim Reaper Deluxe</h2>
+            <label class="muoimot"></label>
+            <select class="muoimot">
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <h3 id="muoihai" class="irish-grover-regular ">SKU:</h3>
+            <h3 id="muoibon" class="irish-grover-regular ">327AE-6</h3>
+            <h3 id="muoiba" class="irish-grover-regular ">Barcode:</h3>
+            <h3 id="muoinam" class="irish-grover-regular">327038522</h3>
+            <h3 id="muoisau" class="irish-grover-regular ">Availability:</h3>
+            <h3 id="muoibay" class="irish-grover-regular ">Available</h3>
+            <h3 id="muoitam" class="irish-grover-regular ">$17.00</h3>
+            <label for="quantity"></label>
+            <input type="number" id="quantity" name="quantity" min="1" max="99" value="1">
+            <a href="http://127.0.0.1:5500/trangchu.html" id="muoichin" class="irish-grover-regular ">Add to card<i id="haimuoi" class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+
+    <!-- link js của slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+
+    </script>
+</body>
+
+</html>

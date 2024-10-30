@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nam .nosifer-regular {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 69px;
+    color:#ffa600;
+    letter-spacing: 3px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-left: 800px;
+    transition: .4s ;
+}
+
+.nam .new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color:#ffa600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .4s ;
+}
+
+.nam .shojumaru-regular {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:10px;
+    border:2px solid #011f29;
+    position: relative;
+    overflow: hidden;
+    background: rgba(238, 238, 238, 0.1);
+    backdrop-filter: blur(0px);
+    left: 630px;
+    font-size: 40px;
+    transition: .3s ;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mot .ruge-boogie-regular {
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+
+.mot .ruge-boogie-regular:hover {
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+.mot .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 45px;
+    margin-right: 40px;
+    margin-left: 15px;
+    transition: .4s ;
+}
+
+.mot .creepster-regular:hover{
+    color:#ffa600;
+}
+
+.mot {
+    background-image: url(https://i.pinimg.com/564x/13/0f/3d/130f3d131738d24059c4addbe6cdd928.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hai {
+    background: rgb(22, 93, 156, .1);
+    backdrop-filter: blur(10px); /* làm trong suốt( làm mờ màu )*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height:67px;
+    padding: 0 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-solid {
+    color:white;
+    font-size: 40px;
+    transition: .4s ;
+}
+
+.fa-solid:hover {
+    color:#9932CC;
+}
+
+.ba{
+    font-size: 25px;
+    border:3px solid black;
+    border-radius:18px;
+    margin-left: 50px;
+    padding:6px
+}
+
+.bon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nam{
+    min-height: 100vh;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+    margin-left: 20px;
+}
+
+.nam .shojumaru-regular:hover {
+    color:white;
+    border: 2px solid #011f29;
+}
+
+.nam .nosifer-regular:hover {
+    color:red;
+}
+
+.nam .new-rocker-regular:hover{
+    color: red;
+}
+
+#sau{
+    border:1px solid #ffa600;
+    border-radius:20px;
+    background-color: #ffa600;
+}
+
+#bay{
+    color:#181818;
+    font-size: 40px;
+    transition: .4s ;
+}
+
+#bay:hover{
+    font-size: 70px;
+}
+
+#tam{
+    color:#8B4513;
+    font-size: 65px;
+    transition: .4s ;
+}
+
+#tam:hover{
+    color:#8A2BE2;
+    font-size: 80px;
+}
+
